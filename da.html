@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ура!</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #1a1a1a, #4d4d4d);
+            color: white;
+            text-align: center;
+            position: relative; 
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            margin: 10px 0;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            position: relative; 
+            z-index: 1; 
+        }
+        .roses {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        .roses img {
+            position: absolute;
+            width: 100px;
+            height: auto;
+        }
+        .rose-top-left {
+            left: 10px; 
+            top: 10px; 
+        }
+        .rose-top-right {
+            right: 10px;
+            top: 10px;
+        }
+        .rose-bottom-left {
+            left: 10px; 
+            bottom: 10px; 
+        }
+        .rose-bottom-right {
+            right: 10px;
+            bottom: 10px; 
+        }
+        .small-text {
+            font-size: 0.8em; 
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="roses">
+        <img class="rose-top-left" src="https://zarum.ru/uploads/posts/2023-08/1692524790_4dd0c455-c322-423c-ba63-683dcc61a893.jpeg" alt="Rose">
+        <img class="rose-top-right" src="https://www.roza4u.ru/image/catalog/51-krasno-belaya-roza-60cm/1.jpg.jpg" alt="Rose">
+        <img class="rose-bottom-left" src="https://www.lotlike.ru/upload/iblock/0be/101-krasnaya-roza-aper-klass.jpg" alt="Rose">
+        <img class="rose-bottom-right" src="https://static.insales-cdn.com/r/HX0FObKa3Jk/rs:fit:1200:0:1/q:100/plain/images/products/1/6349/535320781/800-800-pink-ohara-feyarozy-rose-027.jpg@jpg" alt="Rose">
+    </div>
+    <div class="container">
+        <h1>Ура, я знал, что ты согласишься!</h1>
+        <img src="https://cdnn21.img.ria.ru/images/152978/03/1529780382_357:0:3843:1961_650x0_80_0_0_96f964a7b8a532745e289194574883f7.jpg" alt="Venom">
+        <div class="small-text">с 14 февраля))
